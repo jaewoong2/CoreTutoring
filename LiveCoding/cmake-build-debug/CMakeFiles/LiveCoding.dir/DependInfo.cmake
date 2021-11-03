@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/82109/CLionProjects/Core/LiveCoding/Example.cpp" "C:/Users/82109/CLionProjects/Core/LiveCoding/cmake-build-debug/CMakeFiles/LiveCoding.dir/Example.cpp.obj"
   "C:/Users/82109/CLionProjects/Core/LiveCoding/main.cpp" "C:/Users/82109/CLionProjects/Core/LiveCoding/cmake-build-debug/CMakeFiles/LiveCoding.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

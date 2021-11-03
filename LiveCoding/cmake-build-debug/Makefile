@@ -142,6 +142,33 @@ LiveCoding/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiveCoding.dir\build.make CMakeFiles/LiveCoding.dir/build
 .PHONY : LiveCoding/fast
 
+Example.obj: Example.cpp.obj
+
+.PHONY : Example.obj
+
+# target to build an object file
+Example.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiveCoding.dir\build.make CMakeFiles/LiveCoding.dir/Example.cpp.obj
+.PHONY : Example.cpp.obj
+
+Example.i: Example.cpp.i
+
+.PHONY : Example.i
+
+# target to preprocess a source file
+Example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiveCoding.dir\build.make CMakeFiles/LiveCoding.dir/Example.cpp.i
+.PHONY : Example.cpp.i
+
+Example.s: Example.cpp.s
+
+.PHONY : Example.s
+
+# target to generate assembly for a file
+Example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiveCoding.dir\build.make CMakeFiles/LiveCoding.dir/Example.cpp.s
+.PHONY : Example.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LiveCoding
+	@echo ... Example.obj
+	@echo ... Example.i
+	@echo ... Example.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

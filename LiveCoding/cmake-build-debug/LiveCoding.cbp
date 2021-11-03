@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/82109/CLionProjects/Core/LiveCoding/Example.cpp">
+			<Option target="LiveCoding"/>
+		</Unit>
+		<Unit filename="C:/Users/82109/CLionProjects/Core/LiveCoding/Example.h">
+			<Option target="LiveCoding"/>
+		</Unit>
 		<Unit filename="C:/Users/82109/CLionProjects/Core/LiveCoding/main.cpp">
 			<Option target="LiveCoding"/>
 		</Unit>

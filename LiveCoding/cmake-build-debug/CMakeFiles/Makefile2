@@ -93,12 +93,12 @@ clean: CMakeFiles/LiveCoding.dir/clean
 CMakeFiles/LiveCoding.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiveCoding.dir\build.make CMakeFiles/LiveCoding.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiveCoding.dir\build.make CMakeFiles/LiveCoding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\82109\CLionProjects\Core\LiveCoding\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target LiveCoding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\82109\CLionProjects\Core\LiveCoding\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target LiveCoding"
 .PHONY : CMakeFiles/LiveCoding.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LiveCoding.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\82109\CLionProjects\Core\LiveCoding\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\82109\CLionProjects\Core\LiveCoding\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LiveCoding.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\82109\CLionProjects\Core\LiveCoding\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/LiveCoding.dir/rule

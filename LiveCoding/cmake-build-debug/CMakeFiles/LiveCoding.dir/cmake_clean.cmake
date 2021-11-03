@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LiveCoding.dir/Example.cpp.obj"
   "CMakeFiles/LiveCoding.dir/main.cpp.obj"
   "LiveCoding.exe"
   "LiveCoding.exe.manifest"
